@@ -1,0 +1,1 @@
+In the function SetDataCallback(), refresh the pointer FrameOfMocapData, the pointer is used to load the data in stream. Set the label position, so that when the function is loading and uploading data, the callback function will not refresh the pointer.
